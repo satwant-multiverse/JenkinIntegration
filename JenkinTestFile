@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Cut') {
+            steps {
+                echo 'Cut'
+            }
+        }
+stage('Copy') {
+            steps {
+                echo 'Copy'
+            }
+        }
+stage('Paste') {
+            steps {
+                echo 'Paste'
+            }
+        }
+    }
+}
